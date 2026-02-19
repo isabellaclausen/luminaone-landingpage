@@ -76,6 +76,23 @@ body {
  
 }
 
+/* hver side (50/50) */
+.hero-col1 {
+  flex: 1;
+  height: 100%;
+}
+
+/* billedet fylder hele boksen */
+.hero-col1 img {
+  width: 100%;
+  height: auto;
+ 
+}
+
+
+ 
+
+
 /* lodret linje i midten */
 .hero::after {
   content: "";
